@@ -1,17 +1,223 @@
-<!DOCTYPE html>
-<html lang="ja">
-
+<DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meat charset="UTF-8">
+    <meat name="vierport" content="width=device-width,initial-scale=1.0">
+    <title>Anzai</title>
     <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+    <style>
+        
+
+
+    </style>    
 </head>
-
 <body>
-    <a-scene>
-        <a-box position="0 0 -3" color="skyblue">
-        </a-box>
-    </a-scene>
-</body>
+    <a-scene
+        cursor="rayOrigin:mouse"
+        raycaster="objects: .clickable">
 
-</html>
+    
+        <a-assets>
+                <img id="brick" src="../assets/宇宙.jpg" alt="">
+        </a-assets>
+
+            <a-sky material="src:#brick"></a-sky>
+
+        <a-assets>
+                <img id="sun" src="../assets/OIP.jpg" alt="">
+        </a-assets>
+        
+        
+        <a-assets>
+                <img id="suisei" src="../assets/水星.jpg" alt="">
+        </a-assets>    
+
+        <a-assets>
+                <img id="kinsei" src="../assets/金星.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="tikyu" src="../assets/地球.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="moon" src="../assets/月.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="kasei" src="../assets/火星.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="mokusei" src="../assets/木星.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="dosei" src="../assets/土星.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="tenousei" src="../assets/天王星.jpg" alt="">
+        </a-assets>
+
+        <a-assets>
+                <img id="kaiousei" src="../assets/海王星.jpg" alt="">
+        </a-assets>
+        
+    
+    <a-sphere material="src:#sun"
+    position="-2 3 -18"
+    color="red"
+    id="sun"
+    radius="4"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">
+
+    
+    <a-sphere material="src:#suisei"
+    position="10 4 -6"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+             
+            
+        ">    </a-sphere>
+
+    <a-sphere material="src:#kinsei"
+    position="5 2 -13"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere>
+        
+
+        <a-sphere material="src:#tikyu"
+    position="-20 3 -20"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">
+    //月
+    <a-sphere material="src:#moon"
+    position="-6 3 -3"
+    
+    id="sun"
+    radius="0.5"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere>
+    
+    </a-sphere>
+
+    <a-sphere material="src:#kasei"
+    position="-15 2 -27"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere>
+
+
+    <a-sphere material="src:#mokusei"
+    position="-40 4 -34"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere>
+        
+    <a-sphere material="src:#dosei"
+    position="-15 3 -41"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere>
+        
+    <a-sphere material="src:#tenousei"
+    position="-80 4 -48"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere> 
+        
+        
+    <a-sphere material="src:#kaiousei"
+    position="20 2 -55"
+    
+    id="sun"
+    radius="1"
+    animation="
+            property:rotation;
+            to: 0 360 0;
+            loop:true;
+            easing:linear;
+            dur:10000;
+        ">        </a-sphere>    
+
+
+    </a-sphere>
+
+    <a-camera
+    position="0 10 30">
+    </a-camera>
+    
+    
+    
+    
+        
+    </a-scane>    
+
+        
+
+        
+
+</body>
